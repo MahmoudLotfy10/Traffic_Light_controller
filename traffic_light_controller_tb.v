@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 module traffic_light_controller_tb;
- 
+ //to control of finish simulation
  parameter finish =200 ;
 reg clk;
 reg rst;
@@ -45,6 +45,7 @@ traffic_light_controller uut
 .gb(gb)
 
 );
+ //create clock to count 10s for each state To fit the specifications
 always
 #5000
 clk=~clk;
