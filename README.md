@@ -1,6 +1,6 @@
 # Traffic_Light_controller
 Design for traffic light controller
-# Details of desig :
+# Details of design:
 
 traffic light controller for the intersection of street "A" and street "B. Each
 street has traffic sensors, which detect the presence of vehices approaching or
